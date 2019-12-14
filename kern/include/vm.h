@@ -59,5 +59,4 @@ void free_kpages(vaddr_t addr);
 void vm_tlbshootdown_all(void);
 void vm_tlbshootdown(const struct tlbshootdown *);
 
-
 #endif /* _VM_H_ */
